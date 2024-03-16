@@ -44,6 +44,5 @@ int rangeSum(int l, int r) {
 }
 
 int main(){
-  
     return 0;
 }
