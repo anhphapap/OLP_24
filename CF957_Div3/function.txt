@@ -1,0 +1,10 @@
+iota(array.begin(), array.end(), x);
+//Tạo một mảng tăng dần bắt đầu bằng giá trị x
+//Lưu ý: Tạo vector trước rồi mới dùng
+
+to_string(x);
+// Nho' ma` dung`
+
+stoll(a)
+//Convert string to int
+

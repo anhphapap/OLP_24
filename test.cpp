@@ -1,8 +1,10 @@
-#include<bits/stdc++.h>
+#include <bits/stdc++.h>
 
 using namespace std;
 
-int main(){
-    ios_base::sync_with_stdio(0); cin.tie(0); cout.tie(0);
+int main()
+{
+    float x = (float)(1 + 2) / 2;
+    cout << x;
     return 0;
 }
