@@ -18,6 +18,7 @@ int main()
             cout << 0 << " " << 1 << endl;
             continue;
         }
+        \
         if ((a > 0 && b > 0) || (a < 0 && b < 0))
         {
             cout << llabs(a) / llabs(__gcd(a, b)) << " " << llabs(b) / llabs(__gcd(a, b)) << endl;

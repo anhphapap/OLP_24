@@ -9,24 +9,13 @@ int main()
     while (t--)
     {
         cin >> n >> k;
-        int i = 1;
-        int ans = 0, temp = n;
-        if (n >= k)
+        int cnt = 0;
+        while (n > 1)
         {
-            if (n % k != 0)
-                ans = 2;
-            else
-                ans = 1;
+            n -= k - 1;
+            cnt++;
         }
-        while (temp / k >= k)
-        {
-            ans += pow(k, i);
-            i++;
-            temp /= k;
-        }
-        if (temp > k)
-            ans += temp / k;
-        cout << ans << endl;
+        cout << cnt << endl;
     }
     return 0;
 }
